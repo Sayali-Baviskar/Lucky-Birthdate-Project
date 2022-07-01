@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyNo</title>
+
+    <!-- <script src="script.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+</head>
+<style>
+    .comp1{
+        background-color: deeppink;
+        width: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+        font-family: 'Times New Roman', Times, serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: hsla(326, 100%, 51%, 1);
+
+background: linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0593", endColorstr="#EFB7EA", GradientType=1 );
+    }
+
+    .comp2{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        border: 3mm;
+        border-style: none;
+        box-shadow: 5px 10px 8px 10px hsl(0, 7%, 55%);
+        width: 50%;
+        max-height: fit-content;
+        text-align: center;
+        border-radius: 1.5rem;
+        background-color: #FFDBFC;
+        background: hsla(326, 100%, 88%, 1);
+        
+background: linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFC3E5", endColorstr="#FFFCE5", GradientType=1 );
+        
+}
+img{
+        width: 5%;
+        height: 5%;
+    }
+
+    #bdate, #luckyno{
+        width: 40%;
+    }
+    
+    
+    
+    
+    .btn-grad {
+            background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D  51%, #FBD3E9  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+        }
+        
+          .btn-grad:hover {
+              background-position: right center; /* change the direction of the change here */
+              color: #fff;
+              text-decoration: none;
+            }
+            
+            h1{
+                color: #eee;
+            }
+            
+            
+            
+            </style>
+<body>
+    
+    <div class="comp1">
+        <!-- <img src="https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> -->
+        <center><h1>Is your Birthdate a Lucky No ?</h1></center>
+    </div>
+    
+    <pre>
+        
+        
+    </pre>
+    <center>
+        <div class="comp2">
+            
+            <h6>Enter Your birth the Date</h6>
+            <input type="date" name="" id="bdate"><br><br>
+            
+            <h6>Enter your Lucky Number </h6>
+            <input type="number" name="" id="luckyno"><br><br>
+            
+            <center><button class="btn-grad" id="btnsubmit">Submit</button></center>
+            <!-- <input type="submit" id="btnSubmit" value="Submit"> -->
+            
+            <textarea name="" id="output-container" cols="30" rows="5"></textarea>
+        </div>
+    </center>
+    
+    <div class="footer">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <div class="fa-3x">
+            <i class=" fa fa-instagram fa-spinner fa-spin"></i>
+            <i class="fas fa-circle-notch fa-spin"></i>
+            <i class="fas fa-sync fa-spin"></i>
+            <i class="fas fa-cog fa-spin"></i>
+            <i class="fas fa-spinner fa-pulse"></i>
+            <i class="fas fa-stroopwafel fa-spin"></i>
+          </div>
+        
+          
+    </div>
+    
+    <script src="script.js"></script>
+    <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
