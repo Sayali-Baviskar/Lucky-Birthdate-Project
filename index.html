@@ -9,14 +9,24 @@
     <!-- <script src="script.js"></script> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
 </head>
 <style>
     .comp1{
         background-color: deeppink;
         width: auto;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        /* border-radius: 2rem; */
+        /* box-shadow: rgb(249, 148, 219) 1.95px 1.95px 2.6px; */
+        box-shadow: rgba(249, 148, 219) 0px 4px 12px;
+        border-bottom-left-radius: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
         font-family: 'Times New Roman', Times, serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background: hsla(326, 100%, 51%, 1);
 
@@ -34,13 +44,15 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0593", en
         padding-bottom: 2rem;
         border: 3mm;
         border-style: none;
-        box-shadow: 5px 10px 8px 10px hsl(0, 7%, 55%);
+        /* box-shadow: 5px 10px 8px 10px hsl(0, 7%, 55%); */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         width: 50%;
         max-height: fit-content;
         text-align: center;
         border-radius: 1.5rem;
         background-color: #FFDBFC;
         background: hsla(326, 100%, 88%, 1);
+        margin-bottom: 1rem;
         
 background: linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
 
@@ -63,7 +75,7 @@ img{
     
     
     
-    .btn-grad {
+    /* .btn-grad {
             background-image: linear-gradient(to right, #FBD3E9 0%, #BB377D  51%, #FBD3E9  100%);
             margin: 10px;
             padding: 15px 45px;
@@ -75,19 +87,66 @@ img{
             box-shadow: 0 0 20px #eee;
             border-radius: 10px;
             display: block;
+            border: none;
         }
         
           .btn-grad:hover {
-              background-position: right center; /* change the direction of the change here */
+              background-position: right center; 
               color: #fff;
               text-decoration: none;
             }
-            
+             */
+
+                      
+                
+             .btn-grad {
+            background-image: linear-gradient(to right, #f4c4f3 0%, #fc67fa  51%, #f4c4f3  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px rgb(245, 185, 223);
+            border-radius: 10px;
+            display: block;
+            border: none;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+         
             h1{
                 color: #eee;
+                font-weight: bold;
+            }
+            h4{
+                color: rgb(67, 0, 135);
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            h6{
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            .footer1{
+
+                border-top-right-radius: 12px;
+                box-shadow: rgb(180, 180, 180) 0px 4px 12px;
+                /* height: 100%; */
+                padding-bottom: 0.5rem;
+                /* background-color: #f4c4f3; */
             }
             
-            
+            #luckyno, #bdate{
+                border-radius: 5px;
+                font-family: 'Times New Roman', Times, serif;
+            }
             
             </style>
 <body>
@@ -97,10 +156,9 @@ img{
         <center><h1>Is your Birthdate a Lucky No ?</h1></center>
     </div>
     
-    <pre>
-        
-        
-    </pre>
+    <!-- <pre>    
+    </pre> -->
+    <br>
     <center>
         <div class="comp2">
             
@@ -108,16 +166,16 @@ img{
             <input type="date" name="" id="bdate"><br><br>
             
             <h6>Enter your Lucky Number </h6>
-            <input type="number" name="" id="luckyno"><br><br>
+            <input type="number" name="" placeholder="Enter your Lucky No" id="luckyno"><br><br>
             
             <center><button class="btn-grad" id="btnsubmit">Submit</button></center>
             <!-- <input type="submit" id="btnSubmit" value="Submit"> -->
             
-            <textarea name="" id="output-container" cols="30" rows="5"></textarea>
+            <h4  id="output-container" ></h4>
         </div>
     </center>
     
-    <div class="footer">
+    <!-- <div class="footer">
         <i class="fa fa-instagram" aria-hidden="true"></i>
         <div class="fa-3x">
             <i class=" fa fa-instagram fa-spinner fa-spin"></i>
@@ -129,7 +187,50 @@ img{
           </div>
         
           
-    </div>
+    </div> -->
+
+
+    <div class="footer1">
+
+        <footer class="bg-light text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #5fe4ff;" href="#!"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #fa84fa;" href="#!"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #66ff00;" href="#!"
+                        role="button"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ff74ff;" href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #78e1f1;" href="#!"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                        role="button"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div> -->
+            <!-- Copyright -->
+        </footer>
     
     <script src="script.js"></script>
     <!-- <script src="https://use.fontawesome.com/your-embed-code.js"></script> -->
