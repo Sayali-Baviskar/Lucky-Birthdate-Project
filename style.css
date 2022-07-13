@@ -1,0 +1,139 @@
+*{
+    font-family: cursive;
+}
+.comp1{
+    background-color: deeppink;
+    width: 70%;
+    padding-left: 1rem;
+    align-self: left;
+    padding-top: 1.5rem;
+    padding-bottom: 0.2rem;
+    /* border-radius: 2rem; */
+    /* box-shadow: rgb(249, 148, 219) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(249, 148, 219) 0px 4px 12px;
+    border-bottom-left-radius: 1rem;
+    /* border-radius: 50%;
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0.1rem;
+    /* font-family: 'Times New Roman', Times, serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Lora' serif;
+    background: hsla(326, 100%, 51%, 1);
+
+    background: linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(326, 100%, 51%, 1) 51%, hsla(305, 64%, 83%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0593", endColorstr="#EFB7EA", GradientType=1 );
+}
+
+.comp2{
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border: 3mm;
+    border-style: none;
+    /* box-shadow: 5px 10px 8px 10px hsl(0, 7%, 55%); */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 50%;
+    max-height: fit-content;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+    background: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    
+    /* background: linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(326, 100%, 88%, 1) 0%, hsla(53, 100%, 95%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFC3E5", endColorstr="#FFFCE5", GradientType=1 ); */
+    
+}
+
+    #bdate, #luckyno{
+        width: 40%;
+    }
+        
+        .btn-grad {
+    background-image: linear-gradient(to right, #f4c4f3 0%, #fc67fa  51%, #f4c4f3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px rgb(245, 185, 223);
+    border-radius: 10px;
+    display: block;
+    border: none;
+    }
+
+    .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    
+    h1{
+        color: #eee;
+        font-weight: bold;
+        /* padding-left: 1rem; */
+        align-self: left;
+    }
+    h4{
+        color: rgb(67, 0, 135);
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: 'Lora' serif;
+        font-weight: bold;
+    }
+    h6{
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: 'Lora' serif;
+        font-weight: bold;
+        padding: 1rem;
+        /* margin-right: 1rem; */
+    }
+    #bdate, #luckyno{
+        margin-left: 2rem;
+    }
+    .footer1{
+
+        border-top-right-radius: 12px;
+        box-shadow: rgb(180, 180, 180) 0px 4px 12px;
+        /* height: 100%; */
+        padding-bottom: 0.5rem;
+        /* background-color: #f4c4f3; */
+    }
+    
+    #luckyno, #bdate{
+        border-radius: 5px;
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: 'Lora' serif;
+    }
+    
+    .main{
+        width: 50%;
+        /* float: center; */
+        display: flex;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+    img{
+        width: 60%;
+        /* height: 50%; */
+    }
+    .heading{
+        padding: 2rem;
+        /* margin-right: 1rem; */
+    }
